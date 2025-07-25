@@ -90,6 +90,7 @@ export async function semanticSearch(
     .sort((a, b) => b.score - a.score);
 }
 
+// Example search
 // greetings:
 // Hello, world! | Greetings from Berlin! | Good morning everyone!
 
