@@ -1,0 +1,139 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "username": "alice",
+      "postText": "Hello, world!"
+    },
+    {
+      "id": "2",
+      "username": "grace",
+      "postText": "Good morning everyone!"
+    },
+    {
+      "id": "3",
+      "username": "linda",
+      "postText": "Hi everyone, I'm new here!"
+    },
+    {
+      "id": "4",
+      "username": "irene",
+      "postText": "Greetings from Berlin!"
+    },
+    {
+      "id": "5",
+      "username": "oliver",
+      "postText": "Had a great cup of coffee today."
+    },
+    {
+      "id": "6",
+      "username": "emma",
+      "postText": "Does anyone want to go hiking this weekend?"
+    },
+    {
+      "id": "7",
+      "username": "leo",
+      "postText": "I just adopted a cute puppy!"
+    },
+    {
+      "id": "8",
+      "username": "maya",
+      "postText": "Loving this sunny weather."
+    },
+    {
+      "id": "9",
+      "username": "sam",
+      "postText": "Does anyone like pizza?"
+    },
+    {
+      "id": "10",
+      "username": "frank",
+      "postText": "Do you like deep dish pizza?"
+    },
+    {
+      "id": "11",
+      "username": "tina",
+      "postText": "What a sunny day!"
+    },
+    {
+      "id": "12",
+      "username": "quinn",
+      "postText": "How's the weather today?"
+    },
+    {
+      "id": "13",
+      "username": "rachel",
+      "postText": "I'm feeling happy this morning!"
+    },
+    {
+      "id": "14",
+      "username": "sophia",
+      "postText": "Finished reading a fantastic novel last night."
+    },
+    {
+      "id": "15",
+      "username": "charlie",
+      "postText": "I just said hi to a neighbor."
+    },
+    {
+      "id": "16",
+      "username": "noah",
+      "postText": "Made homemade pizza for dinner!"
+    },
+    {
+      "id": "17",
+      "username": "yara",
+      "postText": "I'm new, nice to meet everyone!"
+    },
+    {
+      "id": "18",
+      "username": "luis",
+      "postText": "Started learning how to play guitar."
+    },
+    {
+      "id": "19",
+      "username": "mia",
+      "postText": "Just got back from a long bike ride."
+    },
+    {
+      "id": "20",
+      "username": "victor",
+      "postText": "Planning a picnic at the park."
+    },
+    {
+      "id": "21",
+      "username": "sofia",
+      "postText": "What are your favorite movies?"
+    },
+    {
+      "id": "22",
+      "username": "dan",
+      "postText": "Can anyone recommend a good restaurant nearby?"
+    },
+    {
+      "id": "23",
+      "username": "tom",
+      "postText": "Went to the beach yesterday—so relaxing!"
+    },
+    {
+      "id": "24",
+      "username": "lena",
+      "postText": "Morning greetings from Canada!"
+    },
+    {
+      "id": "25",
+      "username": "ben",
+      "postText": "Is anyone interested in starting a book club?"
+    },
+    {
+      "id": "26",
+      "username": "ella",
+      "postText": "This weather is perfect for a picnic."
+    },
+    {
+      "id": "5081",
+      "username": "John",
+      "postText": "Good morniong"
+    }
+  ]
+}

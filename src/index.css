@@ -1,0 +1,149 @@
+/* src/index.css */
+
+body {
+  background: #f5f7fa;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  background: #fff;
+  margin: 40px 0;
+  padding: 32px 24px;
+  border-radius: 16px;
+  box-shadow:
+    0 2px 24px rgba(60, 60, 120, 0.08),
+    0 1.5px 5px rgba(50, 50, 70, 0.03);
+  width: 100%;
+  max-width: 450px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: #32475b;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+input {
+  padding: 10px 12px;
+  border: 1.5px solid #b8c4d2;
+  border-radius: 7px;
+  font-size: 1rem;
+  background: #f8fafb;
+  transition: border 0.2s;
+}
+
+input:focus {
+  border-color: #5e81f4;
+  outline: none;
+}
+
+button[type="submit"] {
+  padding: 10px 0;
+  background: linear-gradient(90deg, #5e81f4 0%, #5161f4 100%);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 1px 4px rgba(94, 129, 244, 0.13);
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+  background: linear-gradient(90deg, #4055d4 0%, #3247b5 100%);
+}
+
+.error {
+  color: #e3342f;
+  font-size: 0.9em;
+  margin-top: 2px;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.post-item {
+  background: #f8fafb;
+  border: 1px solid #dde5ee;
+  border-radius: 10px;
+  padding: 16px 14px;
+  box-shadow: 0 1px 2px rgba(100, 120, 180, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.post-item span {
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+.post-item strong {
+  color: #5e81f4;
+  margin-bottom: 2px;
+}
+
+.username-text {
+  display: block;
+  max-height: 40px; /* Adjust as needed */
+  overflow-y: auto;
+  font-weight: bold;
+  color: #5e81f4;
+  word-break: break-word;
+  white-space: pre-wrap;
+  margin-bottom: 4px;
+  padding-right: 2px;
+}
+
+.post-text {
+  display: block;
+  max-height: 120px; /* Adjust as needed */
+  overflow-y: auto;
+  word-break: break-word;
+  white-space: pre-wrap;
+  padding-right: 2px;
+}
+
+/* Optional: scrollbar style */
+.username-text::-webkit-scrollbar,
+.post-text::-webkit-scrollbar {
+  width: 6px;
+}
+
+.username-text::-webkit-scrollbar-thumb,
+.post-text::-webkit-scrollbar-thumb {
+  background: #e0e6ed;
+  border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+  .app-container {
+    max-width: 100vw;
+    padding: 18px 6vw;
+    margin: 0;
+    border-radius: 0;
+  }
+}
